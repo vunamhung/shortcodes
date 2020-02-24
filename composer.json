@@ -1,0 +1,31 @@
+{
+	"name": "vunamhung/shortcodes",
+	"description": "This is a useful shortcodes for developing WordPress.",
+	"keywords": [
+		"wordpress",
+		"shortcode"
+	],
+	"homepage": "https://github.com/vunamhung/shortcodes",
+	"license": "GPL-3.0+",
+	"support": {
+		"issues": "https://github.com/vunamhung/shortcodes/issues",
+		"source": "https://github.com/vunamhung/shortcodes"
+	},
+	"authors": [
+		{
+			"name": "Vu Nam Hung",
+			"email": "vunamhung@gmail.com",
+			"homepage": "https://github.com/vunamhung/",
+			"role": "Lead Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.6.0",
+		"vunamhung/wptoolkit": "^0.9.8"
+	},
+	"autoload": {
+		"psr-4": {
+			"vnh\\": "."
+		}
+	}
+}
