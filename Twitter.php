@@ -1,6 +1,6 @@
 <?php
 
-namespace vnh;
+namespace vnh\shortcodes;
 
 use vnh\contracts\Shortcodeable;
 
