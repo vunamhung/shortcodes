@@ -6,6 +6,8 @@ use vnh\contracts\Enqueueable;
 use vnh\contracts\Shortcodeable;
 use WP_Error;
 
+use function vnh\request;
+
 class Weather implements Shortcodeable, Enqueueable {
 	public $default_args;
 	public $api_keys = ['f8567f1c1498c35bc5f9839b9cad4a2d'];
