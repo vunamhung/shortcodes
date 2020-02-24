@@ -4,6 +4,8 @@ namespace vnh\shortcodes;
 
 use vnh\contracts\Shortcodeable;
 
+use function vnh\request;
+
 class Twitter implements Shortcodeable {
 	public $default_atts;
 	public $base_url = 'https://api.twitter.com/1.1/statuses/user_timeline.json';

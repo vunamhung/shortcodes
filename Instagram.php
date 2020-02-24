@@ -5,6 +5,8 @@ namespace vnh\shortcodes;
 use vnh\contracts\Shortcodeable;
 use WP_Error;
 
+use function vnh\request;
+
 class Instagram implements Shortcodeable {
 	public $base_url = 'https://www.instagram.com/%s/?__a=1';
 	public $default_atts;
